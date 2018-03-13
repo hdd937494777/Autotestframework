@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="qa-endemon-mng" />
+        <module name="qa-eudemon-pay" />
+        <module name="qa-eudemon-service" />
+        <module name="qa-eudemon-task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mock-test-web" target="1.7" />
+      <module name="qa-endemon-mng" target="1.7" />
+      <module name="qa-eudemon" target="1.5" />
+      <module name="qa-eudemon-pay" target="1.7" />
+      <module name="qa-eudemon-service" target="1.7" />
+      <module name="qa-eudemon-task" target="1.5" />
+      <module name="qaeudemontask" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

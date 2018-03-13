@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+    <description>定时器配置</description>
+
+    <bean  class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <!--<ref bean="servicesTrigger" />-->
+                <ref bean="exceptionCheckTrigger" />
+            </list>
+        </property>
+    </bean>
+
+ <!--   <bean id="servicesRequestTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="servicesTask" />
+        <property name="targetMethod" value="sendRequest" />
+    </bean>
+
+    <bean id="servicesTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="servicesRequestTask" />
+        <property name="cronExpression" value="${cron.job.servicestask.decl}" />
+        <property name="startDelay" value="${startDelay}"/>
+    </bean>-->
+
+    <bean id="exceptionChecksTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="exceptionCheckTask" />
+        <property name="targetMethod" value="check" />
+    </bean>
+
+    <bean id="exceptionCheckTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="exceptionChecksTask" />
+        <property name="cronExpression" value="${cron.job.exceptionchecktask.decl}" />
+        <property name="startDelay" value="${startDelay}"/>
+    </bean>
+
+</beans>

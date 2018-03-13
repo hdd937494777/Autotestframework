@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mock-test-web:war">
+    <output-path>$PROJECT_DIR$/qa-eudemon-web/target</output-path>
+    <root id="archive" name="qa-endemon-web-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="mock-test-web:war exploded" />
+    </root>
+  </artifact>
+</component>

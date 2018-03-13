@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.miz.eudemon</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <artifactId>qa-eudemon-task</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.miz.eudemon</groupId>
+            <artifactId>qa-eudemon-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>1.8.5</version>
+        </dependency>
+    </dependencies><!--
+
+    <profiles>
+        <profile>
+            <id>deploy</id>
+            <properties>
+                <assembly>src/main/assembly/assembly.xml</assembly>
+                <props>src/main/resources/properties/quartz.properties</props>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>deploy_libs</id>
+            <properties>
+                <assembly>src/main/assembly/assembly_libs.xml</assembly>
+                <props>src/main/resources/properties/quartz.properties</props>
+            </properties>
+        </profile>
+    </profiles>-->
+
+</project>

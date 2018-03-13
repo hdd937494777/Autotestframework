@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testproj]">
+  <test name="testDemo1">
+    <classes>
+      <class name="com.mizlicai.cashier.testcase.testng.WebTestFactory"/>
+    </classes>
+  </test> <!-- testDemo1 -->
+</suite> <!-- Failed suite [testproj] -->

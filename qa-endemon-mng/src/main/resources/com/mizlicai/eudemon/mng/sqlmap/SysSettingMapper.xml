@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mizlicai.eudemon.mng.mapper.SysSettingMapper">
+  <resultMap id="BaseResultMap" type="com.mizlicai.eudemon.mng.entity.SysSetting">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="fee_rate" jdbcType="VARCHAR" property="feeRate" />
+    <result column="period" jdbcType="VARCHAR" property="period" />
+    <result column="copyright" jdbcType="VARCHAR" property="copyright" />
+    <result column="close_reason" jdbcType="VARCHAR" property="closeReason" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="email_status" jdbcType="VARCHAR" property="emailStatus" />
+    <result column="email_host" jdbcType="VARCHAR" property="emailHost" />
+    <result column="email_port" jdbcType="VARCHAR" property="emailPort" />
+    <result column="email_user" jdbcType="VARCHAR" property="emailUser" />
+    <result column="email_username" jdbcType="VARCHAR" property="emailUsername" />
+    <result column="email_pwd" jdbcType="VARCHAR" property="emailPwd" />
+    <result column="email_test" jdbcType="VARCHAR" property="emailTest" />
+    <result column="hot_destination" jdbcType="VARCHAR" property="hotDestination" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="sms_status" jdbcType="VARCHAR" property="smsStatus" />
+    <result column="sms_username" jdbcType="VARCHAR" property="smsUsername" />
+    <result column="sms_pwd" jdbcType="VARCHAR" property="smsPwd" />
+    <result column="sms_send_gateway" jdbcType="VARCHAR" property="smsSendGateway" />
+    <result column="sms_receive_gateway" jdbcType="VARCHAR" property="smsReceiveGateway" />
+    <result column="script" jdbcType="VARCHAR" property="script" />
+    <result column="order_retain" jdbcType="VARCHAR" property="orderRetain" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, create_time, update_time, fee_rate, period, copyright, close_reason, status, 
+    email_status, email_host, email_port, email_user, email_username, email_pwd, email_test, 
+    hot_destination, keywords, sms_status, sms_username, sms_pwd, sms_send_gateway, sms_receive_gateway, 
+    script, order_retain
+  </sql>
+  <select id="selectByExample" parameterType="com.mizlicai.eudemon.mng.entity.SysSettingExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from sys_setting
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from sys_setting
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from sys_setting
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.mizlicai.eudemon.mng.entity.SysSettingExample">
+    delete from sys_setting
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.mizlicai.eudemon.mng.entity.SysSetting">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into sys_setting (create_time, update_time, fee_rate, 
+      period, copyright, close_reason, 
+      status, email_status, email_host, 
+      email_port, email_user, email_username, 
+      email_pwd, email_test, hot_destination, 
+      keywords, sms_status, sms_username, 
+      sms_pwd, sms_send_gateway, sms_receive_gateway, 
+      script, order_retain)
+    values (#{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{feeRate,jdbcType=VARCHAR}, 
+      #{period,jdbcType=VARCHAR}, #{copyright,jdbcType=VARCHAR}, #{closeReason,jdbcType=VARCHAR}, 
+      #{status,jdbcType=VARCHAR}, #{emailStatus,jdbcType=VARCHAR}, #{emailHost,jdbcType=VARCHAR}, 
+      #{emailPort,jdbcType=VARCHAR}, #{emailUser,jdbcType=VARCHAR}, #{emailUsername,jdbcType=VARCHAR}, 
+      #{emailPwd,jdbcType=VARCHAR}, #{emailTest,jdbcType=VARCHAR}, #{hotDestination,jdbcType=VARCHAR}, 
+      #{keywords,jdbcType=VARCHAR}, #{smsStatus,jdbcType=VARCHAR}, #{smsUsername,jdbcType=VARCHAR}, 
+      #{smsPwd,jdbcType=VARCHAR}, #{smsSendGateway,jdbcType=VARCHAR}, #{smsReceiveGateway,jdbcType=VARCHAR}, 
+      #{script,jdbcType=VARCHAR}, #{orderRetain,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.mizlicai.eudemon.mng.entity.SysSetting">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into sys_setting
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="feeRate != null">
+        fee_rate,
+      </if>
+      <if test="period != null">
+        period,
+      </if>
+      <if test="copyright != null">
+        copyright,
+      </if>
+      <if test="closeReason != null">
+        close_reason,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="emailStatus != null">
+        email_status,
+      </if>
+      <if test="emailHost != null">
+        email_host,
+      </if>
+      <if test="emailPort != null">
+        email_port,
+      </if>
+      <if test="emailUser != null">
+        email_user,
+      </if>
+      <if test="emailUsername != null">
+        email_username,
+      </if>
+      <if test="emailPwd != null">
+        email_pwd,
+      </if>
+      <if test="emailTest != null">
+        email_test,
+      </if>
+      <if test="hotDestination != null">
+        hot_destination,
+      </if>
+      <if test="keywords != null">
+        keywords,
+      </if>
+      <if test="smsStatus != null">
+        sms_status,
+      </if>
+      <if test="smsUsername != null">
+        sms_username,
+      </if>
+      <if test="smsPwd != null">
+        sms_pwd,
+      </if>
+      <if test="smsSendGateway != null">
+        sms_send_gateway,
+      </if>
+      <if test="smsReceiveGateway != null">
+        sms_receive_gateway,
+      </if>
+      <if test="script != null">
+        script,
+      </if>
+      <if test="orderRetain != null">
+        order_retain,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="feeRate != null">
+        #{feeRate,jdbcType=VARCHAR},
+      </if>
+      <if test="period != null">
+        #{period,jdbcType=VARCHAR},
+      </if>
+      <if test="copyright != null">
+        #{copyright,jdbcType=VARCHAR},
+      </if>
+      <if test="closeReason != null">
+        #{closeReason,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="emailStatus != null">
+        #{emailStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="emailHost != null">
+        #{emailHost,jdbcType=VARCHAR},
+      </if>
+      <if test="emailPort != null">
+        #{emailPort,jdbcType=VARCHAR},
+      </if>
+      <if test="emailUser != null">
+        #{emailUser,jdbcType=VARCHAR},
+      </if>
+      <if test="emailUsername != null">
+        #{emailUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="emailPwd != null">
+        #{emailPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="emailTest != null">
+        #{emailTest,jdbcType=VARCHAR},
+      </if>
+      <if test="hotDestination != null">
+        #{hotDestination,jdbcType=VARCHAR},
+      </if>
+      <if test="keywords != null">
+        #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="smsStatus != null">
+        #{smsStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="smsUsername != null">
+        #{smsUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="smsPwd != null">
+        #{smsPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="smsSendGateway != null">
+        #{smsSendGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="smsReceiveGateway != null">
+        #{smsReceiveGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="script != null">
+        #{script,jdbcType=VARCHAR},
+      </if>
+      <if test="orderRetain != null">
+        #{orderRetain,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.mizlicai.eudemon.mng.entity.SysSettingExample" resultType="java.lang.Long">
+    select count(*) from sys_setting
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update sys_setting
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updateTime != null">
+        update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.feeRate != null">
+        fee_rate = #{record.feeRate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.period != null">
+        period = #{record.period,jdbcType=VARCHAR},
+      </if>
+      <if test="record.copyright != null">
+        copyright = #{record.copyright,jdbcType=VARCHAR},
+      </if>
+      <if test="record.closeReason != null">
+        close_reason = #{record.closeReason,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null">
+        status = #{record.status,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailStatus != null">
+        email_status = #{record.emailStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailHost != null">
+        email_host = #{record.emailHost,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailPort != null">
+        email_port = #{record.emailPort,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailUser != null">
+        email_user = #{record.emailUser,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailUsername != null">
+        email_username = #{record.emailUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailPwd != null">
+        email_pwd = #{record.emailPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="record.emailTest != null">
+        email_test = #{record.emailTest,jdbcType=VARCHAR},
+      </if>
+      <if test="record.hotDestination != null">
+        hot_destination = #{record.hotDestination,jdbcType=VARCHAR},
+      </if>
+      <if test="record.keywords != null">
+        keywords = #{record.keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="record.smsStatus != null">
+        sms_status = #{record.smsStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.smsUsername != null">
+        sms_username = #{record.smsUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="record.smsPwd != null">
+        sms_pwd = #{record.smsPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="record.smsSendGateway != null">
+        sms_send_gateway = #{record.smsSendGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="record.smsReceiveGateway != null">
+        sms_receive_gateway = #{record.smsReceiveGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="record.script != null">
+        script = #{record.script,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderRetain != null">
+        order_retain = #{record.orderRetain,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update sys_setting
+    set id = #{record.id,jdbcType=INTEGER},
+      create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      fee_rate = #{record.feeRate,jdbcType=VARCHAR},
+      period = #{record.period,jdbcType=VARCHAR},
+      copyright = #{record.copyright,jdbcType=VARCHAR},
+      close_reason = #{record.closeReason,jdbcType=VARCHAR},
+      status = #{record.status,jdbcType=VARCHAR},
+      email_status = #{record.emailStatus,jdbcType=VARCHAR},
+      email_host = #{record.emailHost,jdbcType=VARCHAR},
+      email_port = #{record.emailPort,jdbcType=VARCHAR},
+      email_user = #{record.emailUser,jdbcType=VARCHAR},
+      email_username = #{record.emailUsername,jdbcType=VARCHAR},
+      email_pwd = #{record.emailPwd,jdbcType=VARCHAR},
+      email_test = #{record.emailTest,jdbcType=VARCHAR},
+      hot_destination = #{record.hotDestination,jdbcType=VARCHAR},
+      keywords = #{record.keywords,jdbcType=VARCHAR},
+      sms_status = #{record.smsStatus,jdbcType=VARCHAR},
+      sms_username = #{record.smsUsername,jdbcType=VARCHAR},
+      sms_pwd = #{record.smsPwd,jdbcType=VARCHAR},
+      sms_send_gateway = #{record.smsSendGateway,jdbcType=VARCHAR},
+      sms_receive_gateway = #{record.smsReceiveGateway,jdbcType=VARCHAR},
+      script = #{record.script,jdbcType=VARCHAR},
+      order_retain = #{record.orderRetain,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.mizlicai.eudemon.mng.entity.SysSetting">
+    update sys_setting
+    <set>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="feeRate != null">
+        fee_rate = #{feeRate,jdbcType=VARCHAR},
+      </if>
+      <if test="period != null">
+        period = #{period,jdbcType=VARCHAR},
+      </if>
+      <if test="copyright != null">
+        copyright = #{copyright,jdbcType=VARCHAR},
+      </if>
+      <if test="closeReason != null">
+        close_reason = #{closeReason,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="emailStatus != null">
+        email_status = #{emailStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="emailHost != null">
+        email_host = #{emailHost,jdbcType=VARCHAR},
+      </if>
+      <if test="emailPort != null">
+        email_port = #{emailPort,jdbcType=VARCHAR},
+      </if>
+      <if test="emailUser != null">
+        email_user = #{emailUser,jdbcType=VARCHAR},
+      </if>
+      <if test="emailUsername != null">
+        email_username = #{emailUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="emailPwd != null">
+        email_pwd = #{emailPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="emailTest != null">
+        email_test = #{emailTest,jdbcType=VARCHAR},
+      </if>
+      <if test="hotDestination != null">
+        hot_destination = #{hotDestination,jdbcType=VARCHAR},
+      </if>
+      <if test="keywords != null">
+        keywords = #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="smsStatus != null">
+        sms_status = #{smsStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="smsUsername != null">
+        sms_username = #{smsUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="smsPwd != null">
+        sms_pwd = #{smsPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="smsSendGateway != null">
+        sms_send_gateway = #{smsSendGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="smsReceiveGateway != null">
+        sms_receive_gateway = #{smsReceiveGateway,jdbcType=VARCHAR},
+      </if>
+      <if test="script != null">
+        script = #{script,jdbcType=VARCHAR},
+      </if>
+      <if test="orderRetain != null">
+        order_retain = #{orderRetain,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.mizlicai.eudemon.mng.entity.SysSetting">
+    update sys_setting
+    set create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      fee_rate = #{feeRate,jdbcType=VARCHAR},
+      period = #{period,jdbcType=VARCHAR},
+      copyright = #{copyright,jdbcType=VARCHAR},
+      close_reason = #{closeReason,jdbcType=VARCHAR},
+      status = #{status,jdbcType=VARCHAR},
+      email_status = #{emailStatus,jdbcType=VARCHAR},
+      email_host = #{emailHost,jdbcType=VARCHAR},
+      email_port = #{emailPort,jdbcType=VARCHAR},
+      email_user = #{emailUser,jdbcType=VARCHAR},
+      email_username = #{emailUsername,jdbcType=VARCHAR},
+      email_pwd = #{emailPwd,jdbcType=VARCHAR},
+      email_test = #{emailTest,jdbcType=VARCHAR},
+      hot_destination = #{hotDestination,jdbcType=VARCHAR},
+      keywords = #{keywords,jdbcType=VARCHAR},
+      sms_status = #{smsStatus,jdbcType=VARCHAR},
+      sms_username = #{smsUsername,jdbcType=VARCHAR},
+      sms_pwd = #{smsPwd,jdbcType=VARCHAR},
+      sms_send_gateway = #{smsSendGateway,jdbcType=VARCHAR},
+      sms_receive_gateway = #{smsReceiveGateway,jdbcType=VARCHAR},
+      script = #{script,jdbcType=VARCHAR},
+      order_retain = #{orderRetain,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

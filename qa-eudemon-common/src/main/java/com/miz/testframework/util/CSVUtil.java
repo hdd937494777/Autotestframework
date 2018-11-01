@@ -4,6 +4,9 @@ package com.miz.testframework.util;
 import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
 import com.alibaba.fastjson.JSONObject;
+import com.miz.testframework.config.DBConfig;
+import com.miz.testframework.config.PropertyConfig;
+import com.miz.testframework.database.DBConn;
 import com.miz.testframework.vo.XlsRowVO;
 import jxl.write.Label;
 import jxl.write.WritableSheet;
@@ -21,6 +24,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,6 +48,7 @@ public class CSVUtil {
 
     /** LOGGER */
     private static final Log LOGGER            = LogFactory.getLog(CSVUtil.class);
+
 
     /**
      *解析excel为map
@@ -463,7 +469,64 @@ public class CSVUtil {
             logger.error("创建主文件失败",e);
         }
     }
+    /**
+     * 生成字段为DB的table的校验文件
+     * @param tableName 需要校验的表名
+     * @param path 生成文件的绝对路径
+     */
 
+
+    public static void createDBCheckTemplateCsv(String tableName, String path) {
+        if ((StringUtil.isBlank(tableName)) || (StringUtil.isBlank(path))) {
+            throw new RuntimeException("tableName or path cannot be null!");
+        }
+        PropertyConfig.initDBConfigs();
+        DBConfig dbconf = PropertyConfig.getDBConfig(tableName);
+        DBConn conn = new DBConn();
+        List csvValues = new ArrayList();
+        String[] header = { "tableName", "field", "flag", "exp1" };
+        csvValues.add(header);
+        try {
+            String querySql;
+
+            querySql = "select column_name from information_schema.columns where table_name='"
+                    + tableName + "' and table_schema='"+dbconf.getSchema()+"'";
+
+            int i = 0;
+            ResultSet resultSet = conn.executeQuery(tableName, querySql);
+            while (resultSet.next()) {
+                String colsName = resultSet.getString(1);
+                String firstColumn = "";
+                if (i == 0) {
+                    firstColumn = tableName;
+                }
+                String[] row = { firstColumn, colsName, "Y", "" };
+                csvValues.add(row);
+                i++;
+            }
+        } catch (SQLException e) {
+            logger.error("数据库操作出错。", e);
+            throw new RuntimeException(e);
+        } finally {
+            conn.close();
+        }
+        File file = new File(path);
+        try {
+            //初始化写入文件
+            OutputStream outputStream = null;
+            outputStream = new FileOutputStream(file);
+            //将生成内容写入CSV文件
+            OutputStreamWriter osw = null;
+            osw = new OutputStreamWriter(outputStream);
+            CSVWriter csvWriter = new CSVWriter(osw);
+            csvWriter.writeAll(csvValues);
+            csvWriter.close();
+
+        } catch (Exception e1) {
+            logger.error("DB的Table写入csv文件出错! path=" + path, e1);
+            throw new RuntimeException(e1);
+        }
+    }
 
 
 

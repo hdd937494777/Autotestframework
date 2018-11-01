@@ -54,7 +54,7 @@ public class PropertyConfig {
 	 */
 	public static synchronized void initDBConfigs() {
 		// 将配置项入缓存，只加载一次
-		if (null == testConfigs) {
+		if (null == testConfigs||testConfigs.equals("")) {
 			testConfigs = ConfigrationFactory.getConfigration();
 		}
 

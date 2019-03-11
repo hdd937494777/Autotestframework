@@ -67,7 +67,7 @@ public class TestUtil {
                     if (method.getName().contains("insert")){
                         try {
                             method.invoke(basemapper,record);
-                            return;
+                            break;
                         } catch (IllegalAccessException e) {
                             e.printStackTrace();
                         } catch (InvocationTargetException e) {

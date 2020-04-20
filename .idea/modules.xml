@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/qa-eudemon.iml" filepath="$PROJECT_DIR$/qa-eudemon.iml" />
       <module fileurl="file://$PROJECT_DIR$/qa-eudemon-common/qa-eudemon-common.iml" filepath="$PROJECT_DIR$/qa-eudemon-common/qa-eudemon-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/qa-eudemon-service/qa-eudemon-service.iml" filepath="$PROJECT_DIR$/qa-eudemon-service/qa-eudemon-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa-eudemon-service/qa-eudemon-service.iml" filepath="$PROJECT_DIR$/qa-eudemon-service/qa-eudemon-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qa-eudemon-task/qa-eudemon-task.iml" filepath="$PROJECT_DIR$/qa-eudemon-task/qa-eudemon-task.iml" />
     </modules>
   </component>

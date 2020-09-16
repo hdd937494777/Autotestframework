@@ -1,16 +1,862 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a666d937-b4f8-4278-88d5-1fee1f529410" name="Default" comment="增加服务校验">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_31.xml" afterPath="" />
+    <list default="true" id="a666d937-b4f8-4278-88d5-1fee1f529410" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jxls_jxls_2_8_1.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esms_postmsg_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esms_protobuf_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_miz_alchemist_api_alchemist_api_1_5_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_miz_cashier_cashier_api_1_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_undercouch_bson4jackson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_reflect_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_apache_jstl_9_2_9_v20150224.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmockit_jmockit_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_1_8_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_mobile_spring_mobile_device_1_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__p6spy_p6spy_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_6_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/qa-endemon-mng.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/filters/dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/annotation/FieldMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/biz/InterfaceServicesBiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/biz/impl/InterfaceServicesBizImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/constraint/Excel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/context/ManagerContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/BaseController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/CommonUtilController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/InterfaceTestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/MainController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/ManagementController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/controller/ProjectController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/dto/CipherRo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/dto/TokenRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/IpConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/IpConfigExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/Member.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/MemberExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/MemberRole.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/MemberRoleExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/MessageRoleSetting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/MessageRoleSettingExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/Resource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/ResourceExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/ResourceRole.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/ResourceRoleExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/ResourceUrl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/ResourceUrlExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/RoleManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/RoleManagerExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/SysSetting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/entity/SysSettingExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/enums/MerchantAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/exception/BusinessException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/exception/BusinessExceptionCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/exception/ManagerException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/exception/ManagerExceptionCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/interceptor/IPInterceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/interceptor/UserSessionInterceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/IpConfigMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/MemberMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/MemberRoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/MessageRoleSettingMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/ResourceMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/ResourceRoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/ResourceUrlMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/RoleManagerMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/mapper/SysSettingMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/InternalLogService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/IpConfigService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/MessageRoleSettingService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/ResourceAccessService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/UserMemberRoleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/impl/InternalLogServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/impl/IpConfigServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/impl/MessageRoleSettingServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/impl/ResourceAccessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/service/impl/UserMemberRoleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ControllerHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ControllerResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/DateTimeUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/Encryption.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ExcelAndCsvDownload.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ExcelHandleStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ExcelUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ExportExcel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ExportUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/GenExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/GrandAndScoreUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/HttpRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/HttpResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/IDGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/IP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ImageTool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ImportExecl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/JacksonJsonMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/Md5Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ModelHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/MoneyUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/MonthUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/PagerHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/PoiExcel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/RateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ResourceAccessDirective.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/SafetyUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/SignUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/SmsUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/TraderRSAUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/java/com/mizlicai/eudemon/mng/utils/ZipCompressor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/IpConfigMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/MemberMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/MemberRoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/MessageRoleSettingMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/ResourceMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/ResourceRoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/ResourceUrlMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/RoleManagerMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/com/mizlicai/eudemon/mng/sqlmap/SysSettingMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/dubbo-consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/freemarker.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/resources/springmvc-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/common/signutil.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/index.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/interface/addService.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/interface/listException.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/interface/listRequest.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/interface/listService.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/login.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/main.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/addMember.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/addResource.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/addRole.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/member.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/resources.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/management/role.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/modifypassword.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/project/add.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/project/list.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/system/login.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/device-pc/system/main.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/ftl/macro.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/css/images/pointes_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/css/images/pointes_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/css/minified/aui-production.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/css/ystep.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/flash/clippy.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont_2d2816fe.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont_aea8981c.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont_aea8981c.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/fonts/font_awesome/fontawesome-webfont_aea8981c.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/anniversary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/anniversary_day.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/anniversarybg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/dummy/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/gravatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/gravatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/gravatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/icon_tv_statistic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/icon_tv_total.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/icons/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/loader-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/login-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/images/splashscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/UPYunUploadHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/ajaxfileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/handlebars-v4.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/messager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/aui-production.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/aui-production.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/core/raphael.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/demo/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/demo/charts-justgage-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/demo/charts-morris-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/demo/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/demo/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/china-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/china-data.js.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/highmaps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/highmaps.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/dark-unica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/grid-light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/sand-signika.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/map/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/widgets/charts-justgage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/minified/widgets/charts-morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/uuid.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/js/ystep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/cors/jquery.xdr-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/fileupload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-audio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.fileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/jquery.iframe-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/multiupload/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/dark-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/dark-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/dark-orange.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/white-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/white-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/color-schemes/white-orange.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/common.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/themes/minified/fides/responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/WdatePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/lang/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/skin/WdatePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/skin/default/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/timeplug/skin/default/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/chart.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/charts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/emotion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/emotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/imageUploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/images/center_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/images/left_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/images/none_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/image/images/right_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/link/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/map/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/dragicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/edittable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/edittable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/edittable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/edittd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/table/edittip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/dialogs/tangram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/images/imglabel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/filescan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/assets/ueditor/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/static/check.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/main/webapp/static/user_templete.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/java/com/mizlicai/eudemon/BaseSpringContextTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/java/com/mizlicai/eudemon/ServicesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/freemarker.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/springmvc-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-endemon-mng/src/test/resources/testNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/AutoStruct/AutoStruct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/data/RequestInfoBo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/data/TokenRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/data/XlsRowVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/enums/MerchantAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/enums/OperationType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/enums/RedisKeysType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/newtestcase/NewUnbindBankList_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/service/CSVDataProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/service/DataProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/auth/AuthConfirm_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/auth/Auth_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/banklist/Banklist_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/banklist/UnbindBankList_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/pay/EasyPay.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/pay/EasyPayBefore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/pay/NeedChecked.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/pay/NormalPay.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/testng/WebTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/testng/WebTestFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/testcase/userlist/UserInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/util/DataReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/util/DataWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/util/RecordHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/util/SheetUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/util/StringUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/CommonRequestBiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/ExceptionCheckBiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/RetryRequestBiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/impl/CommonRequestBizImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/impl/ExceptionCheckBizImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/impl/RetryRequestBizImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/context/AppContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/context/TokenConstant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ErrorRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ErrorRequestExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/Project.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ProjectExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/RequestQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/RequestQueueExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ResponseData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ResponseDataExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ServiceConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ServiceConfigExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/Services.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/entity/ServicesExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/exceptions/DataException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/exceptions/TestException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/exceptions/TestExceptionCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/framework/BaseInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/ErrorRequestMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/ProjectMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/RequestQueueMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/ResponseDataMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/ServiceConfigMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/mapper/ServicesMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/ErrorRequestService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/ProjectService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/RequestQueueService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/ResponseDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/ServiceConfigService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/ServicesService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/ErrorRequestServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/ProjectServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/RequestQueueServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/ResponseDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/ServiceConfigServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/service/impl/ServicesServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/thread/RequestTaskThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/thread/ResponseTaskThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/CSVDataProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/CSVParseUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/CommUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/DesUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/ExcelUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/FileDataFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/GlobalTokenHelp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/HttpClientUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/ObjectReflact.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/SSLClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/TokenHelp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/utils/TypeTrantfer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/add.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/auth.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/authConfire.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/banklist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/easypay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/easypaybefore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/needchecked.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/normalpay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/unbinded_banklist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/cashier/userinfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/ErrorRequestMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/ProjectMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/RequestQueueMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/ResponseDataMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/ServiceConfigMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/resources/com/mizlicai/eudemon/sqlmap/ServicesMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/main/webapp/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/biztest/CommonRequestBizTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/biztest/MainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/biztest/SmsSendAsync.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/dbtest/BaseSpringContextTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/dbtest/ServicesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/CalculatorCSVTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/PictureTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/RedisTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/TaskBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/TestCyclic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/ThreadTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/UnbindBankListTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/src/test/resources/testNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/junitreports/TEST-com.mizlicai.cashier.testcase.testng.WebTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/testDemo1.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/old/testproj/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testproj/testDemo1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testproj/testDemo1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-service/test-output/testproj/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/qa-eudemon-task.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/assembly/assembly.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/assembly/assembly_libs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/bin/task.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/java/com/mizlicai/eudemon/task/ExceptionCheckTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/java/com/mizlicai/eudemon/task/QingkeNormalTest.queryDetail.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/java/com/mizlicai/eudemon/task/RetryRequestTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/java/com/mizlicai/eudemon/task/ServicesTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/java/com/mizlicai/eudemon/task/TaskEudemonStartup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/resources/config/cashier-executor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/resources/config/cashier-task.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/main/resources/config/scheduler/inner-task.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/properties/quartz.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/spring-quartz.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-task/src/test/resources/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/auth.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/authConfire.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/banklist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/easypay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/easypaybefore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/needchecked.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/normalpay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/cashier/userinfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/resources/testNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/data/flot-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/data/morris-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/dist/css/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/dist/css/sb-admin-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/dist/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/dist/js/sb-admin-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/less/sb-admin-2.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/blank.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/case.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/detail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/grid.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/pages/tables.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap-social/bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap-social/bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap-social/bootstrap-social.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-plugins/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-plugins/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-plugins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-responsive/dataTables.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-responsive/dataTables.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables-responsive/dataTables.responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.bootstrap4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.foundation.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.jqueryui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.semanticui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.semanticui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.uikit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/dataTables.uikit.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/jquery.dataTables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/css/jquery.dataTables_themeroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/Sorting icons.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.bootstrap4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.bootstrap4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.jqueryui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.jqueryui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.semanticui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.semanticui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.uikit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/dataTables.uikit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/datatables/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot-tooltip/jquery.flot.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/flot/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/metisMenu/metisMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/metisMenu/metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/metisMenu/metisMenu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/metisMenu/metisMenu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/morrisjs/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/morrisjs/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/morrisjs/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/raphael/raphael.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qa-eudemon-web/src/main/webapp/web/vendor/raphael/raphael.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/test.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/qa_endemon_mng_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/qa_endemon_mng_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa-endemon-mng/qa-endemon-mng.iml" afterPath="$PROJECT_DIR$/qa-endemon-mng/qa-endemon-mng.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa-eudemon-common/qa-eudemon-common.iml" afterPath="$PROJECT_DIR$/qa-eudemon-common/qa-eudemon-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa-eudemon-task/qa-eudemon-task.iml" afterPath="$PROJECT_DIR$/qa-eudemon-task/qa-eudemon-task.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/qa-eudemon-pay/target/" />
@@ -49,41 +895,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DriverDataProvider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/dataprovider/DriverDataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBCUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/jdbc/JDBCUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataCompare.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataCompare.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/database/DataCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataExp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/database/DataExp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="298">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -111,6 +927,9 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -121,6 +940,9 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa-eudemon-common/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
@@ -281,7 +1103,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -323,8 +1145,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,74 +1162,131 @@
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="slf4j-api-1.7.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="slf4j-api-1.7.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="slf4j-api-1.7.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa-eudemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-eudemon" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-eudemon-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miz" type="462c0819:PsiDirectoryNode" />
+              <item name="testframework" type="462c0819:PsiDirectoryNode" />
+              <item name="objckeck" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -905,7 +1785,8 @@
       <workItem from="1524019388124" duration="130000" />
       <workItem from="1583823463832" duration="36416000" />
       <workItem from="1587093031167" duration="361000" />
-      <workItem from="1587367885663" duration="225000" />
+      <workItem from="1587367885663" duration="865000" />
+      <workItem from="1600225583907" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="修改包子模块名">
       <created>1496713172243</created>
@@ -991,7 +1872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500016025916</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="增加服务校验">
+      <created>1587368135455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587368135455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1027,16 +1915,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273246000" />
+    <option name="totallyTimeSpent" value="274320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45010847" sideWeight="0.5042644" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15379113" sideWeight="0.48339483" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962804" sideWeight="0.48339483" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1047,16 +1935,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22776572" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31076178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1068,8 +1953,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17521368" sideWeight="0.51660514" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1135,7 +2023,8 @@
     <MESSAGE value="修复多并发，单测试用例&#10;" />
     <MESSAGE value="修改服务&#10;" />
     <MESSAGE value="增加服务校验&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加服务校验&#10;" />
+    <MESSAGE value="增加服务校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加服务校验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,37 +2051,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/thread/ResponseTaskThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="103" lean-forward="false" selection-start-line="45" selection-start-column="103" selection-end-line="45" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/eudemon/biz/impl/CommonRequestBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="78" column="54" lean-forward="false" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/annotations/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/test/java/testng/UnbindBankListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa-eudemon-task/src/test/resources/properties/quartz.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2429,8 +3287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/dataprovider/DriverDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -2467,14 +3325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/database/DataCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/database/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -2484,6 +3334,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -2492,6 +3345,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa-eudemon-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
@@ -3403,6 +4259,46 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/AutoStruct/AutoStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/enums/MerchantAccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/service/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-eudemon-service/src/main/java/com/mizlicai/cashier/service/CSVDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-eudemon-common/src/main/java/com/miz/testframework/database/DataCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

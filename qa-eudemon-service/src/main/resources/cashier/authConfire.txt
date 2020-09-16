@@ -1,2 +1,0 @@
-id,merchantAccount,requestId,validateCode,notifyUrl,payGateType,mobile
-1,004306b3f1a2b646e9,201610101657591637779,8888,www.baidu.com,BAO_FOO,18257125236

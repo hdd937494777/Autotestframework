@@ -1,2 +1,0 @@
-id,merchantAccount,outOrderNo,notifyUrl,bankCode,cardNumber,userName,mobile,buyerUserId,certNo,productName,productType,tradeAmount,platform
-1,004306b3f1a2b646e9,201609210109510,www.baidu.com,6226095712508378,彭华聪,18257125236,1765836,4209841989082505032,米财,MICAI,1.H5

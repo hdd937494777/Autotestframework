@@ -1,2 +1,0 @@
-id,merchantAccount,buyerUserId,PlatformType,bankCode,cardNumber,certNo,userName,mobile,notifyUrl
-1,004306b3f1a2b646e9,1765836,H5,03080000,6226095712508378,420984198908205032,彭华聪,18257125236,www.baidu.com

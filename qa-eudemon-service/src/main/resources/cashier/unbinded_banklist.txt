@@ -1,2 +1,0 @@
-id,requestId,merchantAccount,requestType,platform
-1,1111111111111114,004306b3f1a2b646e9,PAY,H5

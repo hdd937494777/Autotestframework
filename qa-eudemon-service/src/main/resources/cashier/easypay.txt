@@ -1,2 +1,0 @@
-id,merchantAccount,platform,outOrderNo,extInfo,userName,transId,bankCode
-1,004306b3f1a2b646e9,H5,201609210109510,888888,彭华聪,0060161011107502,01050000

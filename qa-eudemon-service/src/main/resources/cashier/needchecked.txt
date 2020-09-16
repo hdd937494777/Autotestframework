@@ -1,2 +1,0 @@
-id,merchantAccount,bankCode,buyerUserId,platform,userName,cardNumber,certNo,mobile
-1,004306b3f1a2b646e9,03080000,1765836,H5,彭华聪,6226095712508378,420984198908205032,18257125236

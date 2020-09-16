@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qa-endemon-mng" />
         <module name="qa-eudemon-common" />
         <module name="qa-eudemon-pay" />
-        <module name="qa-eudemon-service" />
-        <module name="qa-eudemon-task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

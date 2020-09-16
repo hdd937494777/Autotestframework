@@ -1,4 +1,0 @@
-id,buyerUserId
-1,1765836
-2,0
-3,null

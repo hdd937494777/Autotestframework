@@ -13,8 +13,6 @@ import java.util.List;
 
 /**
  * 数据对比，逐行对比csv数据与查询结果是否一致
- *
- * Created by chuwenjun on 2017/7/24.
  */
 public class DataCompare {
 	private static List<?> dataExps = null;

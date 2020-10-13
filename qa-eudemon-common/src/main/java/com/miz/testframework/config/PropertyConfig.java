@@ -9,9 +9,6 @@ import org.slf4j.LoggerFactory;
 /**
  * 启动参数属性配置
  * <p>
- * Create at：2017年7月12日 上午10:46:38
- *
- * @author chuwenjun
  */
 
 public class PropertyConfig {

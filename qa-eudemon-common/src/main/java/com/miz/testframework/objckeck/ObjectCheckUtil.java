@@ -3,10 +3,7 @@ package com.miz.testframework.objckeck;
 import java.io.UnsupportedEncodingException;
 
 /**
- *
  * 对象校验工具类
- *
- * Created by chuwenjun on 2017/7/19.
 */
 public class ObjectCheckUtil {
 

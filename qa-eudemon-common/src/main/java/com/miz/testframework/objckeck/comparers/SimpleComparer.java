@@ -4,10 +4,7 @@ package com.miz.testframework.objckeck.comparers;
 import com.miz.testframework.util.StringUtil;
 
 /**
- *
  * "Y" flag 校验器
- *
- * Created by chuwenjun on 2017/7/19.
  */
 public class SimpleComparer implements Comparer {
 

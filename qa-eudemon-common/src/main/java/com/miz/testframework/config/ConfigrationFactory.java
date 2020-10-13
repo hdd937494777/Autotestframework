@@ -13,7 +13,6 @@ import java.util.Set;
 /**
  *  配置项信息工厂类
  *
- * Created by chuwenjun on 2017/7/24.
  */
 public class ConfigrationFactory {
 

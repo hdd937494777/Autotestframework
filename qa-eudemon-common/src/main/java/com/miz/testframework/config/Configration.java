@@ -5,8 +5,6 @@ import java.util.Map;
 /**
  *  配置项信息
  * 
- * Create at：2017年7月12日 上午10:46:38
- * @author chuwenjun 
  */
 public interface Configration {
 

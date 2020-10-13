@@ -17,9 +17,6 @@ import java.util.Iterator;
 /**
  * 数据驱动类
  * 
- * Create at：2017年7月12日 下午10:38:08
- *
- * @author chuwenjun
  */
 public class DataDriver extends AbstractTestNGSpringContextTests{
 

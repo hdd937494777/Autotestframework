@@ -1,9 +1,5 @@
 package com.miz.testframework.util;
 
-/**
- * Create at：2017年7月12日 上午10:46:38
- * @author chuwenjun
- */
 public class StringUtil {
 
     /**

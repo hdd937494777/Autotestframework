@@ -4,9 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by huangyt on 2017/7/18.
- */
 public class ClassEntity implements Serializable {
 
     /**

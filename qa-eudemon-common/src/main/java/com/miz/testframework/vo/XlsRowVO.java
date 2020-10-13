@@ -2,9 +2,6 @@ package com.miz.testframework.vo;
 
 import java.util.Map;
 
-/**
- * Created by huangyt on 2017/7/10.
- */
 public class XlsRowVO {
 
     private static final long serialVersionUID = 5097785563547534592L;

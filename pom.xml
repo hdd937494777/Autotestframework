@@ -29,10 +29,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>qa-eudemon-service</module>
-       <!-- <module>qa-eudemon-web</module>-->
-        <module>qa-eudemon-task</module>
-        <module>qa-endemon-mng</module>
+<!--        <module>qa-eudemon-service</module>-->
+<!--       &lt;!&ndash; <module>qa-eudemon-web</module>&ndash;&gt;-->
+<!--        <module>qa-eudemon-task</module>-->
+<!--        <module>qa-endemon-mng</module>-->
         <module>qa-eudemon-common</module>
     </modules>
 

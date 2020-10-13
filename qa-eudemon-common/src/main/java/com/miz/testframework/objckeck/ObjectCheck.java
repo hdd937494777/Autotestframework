@@ -24,11 +24,7 @@ import java.util.Map;
 
 
 /**
- *
  * 以文件方式校验对象
- *
- * Create at：2017年7月12日 上午10:46:38
- * @author chuwenjun
  */
 public class ObjectCheck {
 

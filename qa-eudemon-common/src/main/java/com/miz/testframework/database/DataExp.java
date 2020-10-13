@@ -1,9 +1,6 @@
 package com.miz.testframework.database;
 
 
-/**
- * Created by chuwenjun on 2017/7/24.
- */
 
 public class DataExp
 {

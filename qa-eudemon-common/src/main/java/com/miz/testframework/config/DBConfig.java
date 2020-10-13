@@ -3,7 +3,6 @@ package com.miz.testframework.config;
 /**
  * 存取DB配置参数
  *
- * Created by chuwenjun on 2017/7/24.
  */
 public class DBConfig {
 

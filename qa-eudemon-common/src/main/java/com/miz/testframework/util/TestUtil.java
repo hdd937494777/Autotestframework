@@ -9,9 +9,6 @@ import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by chuwenjun on 2019/3/8 10:03 PM
- */
 public class TestUtil {
     /**
      * 解析csv并插入DB(适用实体mapper集成Basemapper的场景)

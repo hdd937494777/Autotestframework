@@ -11,7 +11,6 @@ import java.util.Map;
 /**
  *  配置项信息实现
  *
- * Created by chuwenjun on 2017/7/24.
  */
 public class ConfigrationImpl implements Configration {
 

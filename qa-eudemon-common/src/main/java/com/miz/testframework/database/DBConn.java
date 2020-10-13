@@ -11,7 +11,6 @@ import java.sql.*;
 /**
  * 获取DB连接
  *
- * Created by chuwenjun on 2017/7/24.
  */
 public class DBConn {
 

@@ -6,8 +6,6 @@ import com.miz.testframework.util.StringUtil;
 /**
  *
  * "C" flag 校验器
- *
- * Created by chuwenjun on 2017/7/19.
  */
 public class ConditionComparer implements Comparer {
 

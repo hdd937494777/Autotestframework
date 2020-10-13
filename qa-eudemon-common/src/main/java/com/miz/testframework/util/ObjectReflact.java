@@ -9,9 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by huangyt on 2017/7/11.
- */
 public class ObjectReflact {
 
     static Logger logger = LoggerFactory.getLogger(ObjectReflact.class);

@@ -2,9 +2,6 @@ package com.miz.testframework.database;
 
 import java.io.UnsupportedEncodingException;
 
-/**
- * Created by chuwenjun on 2017/7/24.
- */
 public class DBcheckUtil {
 
     /**

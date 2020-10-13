@@ -20,7 +20,6 @@ import static com.miz.testframework.database.DataCompare.composeQuerySql;
 /**
  * 数据库相关工具类
  *
- * Created by chuwenjun on 2017/7/24.
  */
 public class DBUtils {
 

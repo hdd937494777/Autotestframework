@@ -1,8 +1,5 @@
 package com.miz.testframework.objckeck.comparers;
 
-/**
- * Created by chuwenjun on 2017/7/19.
- */
 public interface Comparer {
 
     /**
